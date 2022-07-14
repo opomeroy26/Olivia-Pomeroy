@@ -4,7 +4,8 @@ import styled from 'styled-components'
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
   /* background: #0F1624; */
-  background-color: #436173;
+  /* background-color: #436173; */
+  background-color: #344e41;
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -54,7 +55,7 @@ export const CarouselItem = styled.div`
     margin-left: 32px;
     min-width: 120px;
     /* background: #0E131F; */
-    background-color: #436173;
+    background-color: #344e41;
     padding: 4px;
     align-content: start;
     scroll-snap-align: start;
