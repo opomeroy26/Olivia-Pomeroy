@@ -83,8 +83,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+   'linear-gradient(270deg, #ffffff 0%, #dad7cd 100%)':
+   'linear-gradient(270deg, #dad7cd 0%, #3a5a40 100%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -177,7 +177,7 @@ export const ButtonBack = styled.div`
   justify-content: center;
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: #fff;
-  background: ${({ alt }) => alt ?'linear-gradient(270deg, #00DBD8 0%, #344e41 100%)':'linear-gradient(270deg, #a3b18a 0%, #dad7cd 100%)'};
+  background: ${({ alt }) => alt ?'linear-gradient(270deg, #ffffff 0%, #dad7cd 100%)':'linear-gradient(270deg, #dad7cd 0%, #ffffff 100%)'};
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -209,7 +209,7 @@ export const ButtonFront = styled.button`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #a3b18a 0%, #dad7cd 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #344e41 100%)'};
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #a3b18a 0%, #dad7cd 100%)':'linear-gradient(270deg, #dad7cd 0%, #a3b18a 100%)'};
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
