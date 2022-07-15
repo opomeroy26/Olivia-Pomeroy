@@ -20,6 +20,8 @@ const Technologies = () =>  (
           <ListParagraph>
             JavaScript <br/>
             React <br/>
+            HTML <br/>
+            CSS <br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,20 +30,29 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Ruby on Rails
+            Ruby on Rails <br/>
+            SQL/ PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <DiFirebase size="3rem"/>
         <ListContainer>
-          <ListTitle>Other</ListTitle>
+          <ListTitle>Platforms</ListTitle>
           <ListParagraph>
-            HTML <br/>
-            CSS and Bootstrap <br/>
-            Git <br/>
+            Github <br/>
             Heroku <br/>
 
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem"/>
+        <ListContainer>
+          <ListTitle>Styles</ListTitle>
+          <ListParagraph>
+            Bootstrap <br/>
+            Material UI <br/>
           </ListParagraph>
         </ListContainer>
       </ListItem>

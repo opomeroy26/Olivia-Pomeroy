@@ -31,6 +31,6 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: 'December: Started my journey into the engineering field', },
-  { year: 2022, text: 'January: Started a full-stack software sngineering bootcamp', },
+  { year: 2022, text: 'January: Started a full-stack software engineering bootcamp', },
   { year: 2022, text: 'May: Gradauted with a certification of completion, accruing 525 clock hours, and becoming a software engineer', },
 ];

@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I'm a Full Stack Software Engineer! With a background in Psychology, I am used to working in highly adaptable enviornments and understand the importance of communication amongst clients and teammates. I became passionate about programming after frustrating personal user experience on sites and a growing curiousity for why they were like that and how could they be fixed. I began learning web development to find the answers to these questions and immediately fell in love with code because it incorporates creativty, problem-solving, and allows me to continuously learn through trial and error.
+      I'm a Full Stack Software Engineer! With a background in Psychology, I am used to working in highly adaptable environments and understand the importance of communication among clients and teammates. I became passionate about programming after frustrating personal user experience on sites and a growing curiousity for why they were like that and how could they be fixed. I began learning web development to find the answers to these questions and immediately fell in love with code because it incorporates creativity, problem-solving, and allows me to continuously learn through trial and error.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
