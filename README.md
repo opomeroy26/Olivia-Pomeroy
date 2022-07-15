@@ -1,4 +1,4 @@
 ## Personal Portfolio
 
-![Portfolio Website](portfolio.png)
+![Portfolio Website](https://oliviapomeroy.com)
 # Olivia-Pomeroy
